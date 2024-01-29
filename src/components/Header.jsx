@@ -13,13 +13,15 @@ const Header = () => {
   )
 }
 const MainHeader=styled.header`
-  padding:0 4.5rem;
-  height:8rem;
+  padding:0 4.8rem;
+  height:10rem;
   display:flex;
   justify-content:space-between;
+  align-items:center;
   background-color:${({theme})=>theme.colors.bg};
   .logo{
-    height:3rem;
+    height:auto;
+    max-width:30%;
   }
   
   
